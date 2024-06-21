@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    background-color: rgba(252, 213, 213, 0.712);
+     max-width: none;
+     justify-content: space-between;
+     text-decoration: none;
+
+}
+.navbar>nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.navbar>nav>ul>li>a {
+    display: block;
+    padding: 2em;
+    margin-left:1em ;
+    margin-right:1em ;
+    text-decoration: none;
+    font-size: 22px;
+}
+#menu-btn {
+display: block;
+}
+#menu-btn>a>img {
+    margin-top: 30px;
+    margin-right: 25px;
+    max-width: 40px;
+    max-height: 41px;
+   
+}
+
+#navi {
+    display: block;
+    
+}
+
+#logo {
+    margin-top:  1em;
+    margin-left: 1em;
+}
+
+#logo>a {
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,49 @@
+#footer {
+    background-color: white;
+}
+.govno {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 1em;
+}
+.office-hours {
+    text-align: center;
+}
+.contacts {
+    text-align: center;
+}
+.addres {
+    text-align: center;
+}
+.office-hours>p {
+    margin-top:1em ;
+    margin-bottom:1em ;
+}
+.addres>p {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.contacts>p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.line1 {
+    border-top: 2px solid;
+    border-color: brown;
+    margin-top: 4em;
+}
+.etc {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 14px;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.etc>img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 2em;
+}
